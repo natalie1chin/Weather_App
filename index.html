@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <input type="text" id="search" name="Serach">
+    <button type="submit" id="searchButton">Search</button>
+    <div class="weather-loading">
+      <h2 class="city">Weather in Denver</h2>
+      <div>
+      <h1 class="temp">51°C</h1>
+      <button  type="click" id="convertButton">°F/°C</button>
+      </div>
+      <div class="humidity">Humidity: 60%</div>
+      <div class="wind">Wind speed: 6.2 km/h</div>
+    </div>
+    <ul id="previousTemps" font="bold">
+      Previous Search History </br>
+    </ul>
+    <button type ="submit" id="deleteHistory"> Delete History</button>
+  </div>
+</body>
+
+</html>
